@@ -1,0 +1,56 @@
+/*
+	嵌套变量是否相同
+	特殊样例比如 0 1 2 n
+	数组是否越界
+	开long long
+*/
+#include<iostream>
+#include<algorithm>
+using namespace std;
+#define endl "\n"
+
+const int maxn=1e6;
+struct node{
+	int x,y,w;
+}a[maxn];
+int p[maxn];
+int n,m;
+bool cmp(node a,node b){
+	return a.w<b.w;
+}
+int find(int r){
+	return p[r]=p[r]==r?p[r]:find(p[r]);
+}
+void solve()
+{
+	while(cin>>n&&n)
+	{
+		cin>>m;
+		for(int i=1;i<=n;i++)
+			p[i]=i;
+		for(int i=1;i<=m;i++)
+			cin>>a[i].x>>a[i].y>>a[i].w;
+		sort(a+1,a+1+m,cmp);
+		int sum=0,cnt=n;
+		for(int i=1;i<=m;i++)
+		{
+			int fa=find(a[i].x);
+			int fb=find(a[i].y);
+			if(fa!=fb)
+			{
+				p[fb]=fa;
+				sum+=a[i].w;
+				cnt--;
+			}
+			if(cnt==1)break;
+		}
+		cout<<sum<<endl;
+	}
+}
+int main()
+{	
+	ios::sync_with_stdio(false);
+	cin.tie(0);cout.tie(0);
+		solve();
+	return 0;
+}
