@@ -1,0 +1,69 @@
+%!TEX program = xelatex
+\documentclass[12pt, a4paper, oneside]{ctexart}
+\usepackage[utf8]{inputenc}
+\usepackage{ctex} %导入中文包
+\usepackage{listings}
+\usepackage{fontspec}
+\usepackage{geometry} %设置页边距的包
+\usepackage{listings}
+\usepackage{xcolor} 
+
+\usepackage{graphicx}
+\usepackage{float}
+
+
+\title{\fontsize{70}{30}\selectfont  ACM 模板} 
+\author{Buns\_out} 
+\date{\today} 
+
+\geometry{left=2.5cm,right=2cm,top=2.54cm,bottom=2.54cm} %设置书籍的页边距
+\definecolor{mygray}{rgb}{0.97,0.97,0.97}%定制颜色
+
+\setsansfont{Monaco} 
+\setmainfont{Monaco}
+
+%对于lstset排版
+\lstset{
+tabsize=4,
+	breaklines, 					% 自动将长的代码行换行排版
+	backgroundcolor = \color{white},     			 % 背景色：淡黄
+	numbers=left, 									% 行号在左侧显示
+	numberstyle= \small, 								% 行号字体
+	keywordstyle= \color{ red!70},						 % 关键字颜色
+	commentstyle= \color{red!50!green!50!blue!50}, 		% 注释颜色
+	rulesepcolor= \color{ red!20!green!20!blue!20} ,
+	frame=single,                               % 设置代码框形式
+	escapeinside=``,									 % 英文分号中可写入中文
+	xleftmargin=2em,xrightmargin=2em, aboveskip=1em,
+	framexleftmargin=2em
+} 
+
+
+\begin{document} 
+
+\maketitle
+\thispagestyle{empty}
+\centering
+\includegraphics[scale=1.3]{1.png}
+
+\newpage
+\tableofcontents 
+\thispagestyle{empty}
+\lstset{language=C++}
+
+\newpage 
+\section{一级标题} 
+\subsection{二级标题} 
+\begin{lstlisting}
+inline void read(int &x){
+   int s = 0, w = 1; char ch = getchar();
+   while(ch < '0' || ch > '9'){ if(ch == '-') w = -1; ch = getchar(); }
+   while(ch >= '0' && ch <= '9') s = s * 10 + ch - '0', ch = getchar();
+   x = s*w;
+   return ;
+}
+\end{lstlisting}
+
+
+
+\end{document}

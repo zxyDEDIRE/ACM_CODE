@@ -1,0 +1,322 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"S",
+				"Station"
+			],
+			[
+				"i",
+				"include"
+			],
+			[
+				"set",
+				"segtree"
+			],
+			[
+				"se",
+				"second"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"r",
+				"Package Control: Remove Package"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"view",
+				"View: Toggle Menu"
+			],
+			[
+				"ip",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 142.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/tob/Desktop/垃圾桶/0423/a.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/0423/a.txt",
+		"/C/Users/tob/Desktop/垃圾桶/0423/a.text",
+		"/C/Users/tob/Desktop/垃圾桶/0422/e.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/0422/c.cpp",
+		"/C/Users/tob/Desktop/模板/bound.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/0420/b.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/0420/a.cpp",
+		"/C/Users/tob/Desktop/模板/快速幂.cpp",
+		"/C/Users/tob/Desktop/模板/鸡桑的动态开点.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/0416/a.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/0416/B.CPP",
+		"/C/Users/tob/Desktop/垃圾桶/0414/a.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/0413/b.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/0412/d.java",
+		"/C/Users/tob/Desktop/垃圾桶/0412/c.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/0412/a.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/0412/b.cpp",
+		"/C/Users/tob/Desktop/模板/快读快写.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/0411/a.cpp",
+		"/C/Users/tob/Desktop/模板/ST表.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/0408/b.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/0404/b.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/0404/a.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/0403/c.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/0403/b.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/0403/a.cpp",
+		"/C/Users/tob/Desktop/模板/差分约束.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/0403/d.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/0401/a.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/0401/d.cpp",
+		"/C/Users/tob/Desktop/模板/鸡桑的树剖LCA.cpp",
+		"/C/Users/tob/Desktop/模板/树链剖分LCA.cpp",
+		"/D/QQ文件/鸡桑的树上路径.cpp",
+		"/D/QQ文件/树剖LCA.cpp",
+		"/C/Users/tob/Desktop/模板/树链剖分线段树.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/0401/b.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/0401/c.cpp",
+		"/C/Users/tob/Desktop/模板/可持久化线段树.cpp",
+		"/C/Users/tob/Desktop/模板/LCA最近公共祖先.cpp",
+		"/C/Users/tob/Desktop/模板/加法乘法线段树.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/0331/b.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/0331/c.cpp",
+		"/C/Users/tob/Desktop/模板/基础线段树+.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/0330/b.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/0330/a.cpp",
+		"/C/Users/tob/Desktop/模板/逆元.cpp",
+		"/C/Users/tob/Desktop/模板/素数.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/0329/b.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/0329/a.cpp",
+		"/C/Users/tob/AppData/Roaming/Sublime Text/.sublime/Local History/C/Users/tob/Desktop/垃圾桶/0328/a-20220328082253.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/text1/0326/a.txt",
+		"/C/Users/tob/Desktop/垃圾桶/3.26蓝桥AC代码/E.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/3.26蓝桥AC代码/D.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/3.26蓝桥AC代码/C.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/3.26蓝桥AC代码/B.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/3.26蓝桥AC代码/A.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/蓝桥/E.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/蓝桥/D.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/蓝桥/C.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/蓝桥/B.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/蓝桥/A.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/蓝桥/F.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/蓝桥/Fcpp",
+		"/C/Users/tob/Desktop/垃圾桶/0327/b.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/0327/a.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/0326/f.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/0326/a.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/0326/b.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/text/20220325c.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/text1/20220321.java",
+		"/C/Users/tob/Desktop/垃圾桶/text/20220325d.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/text/20220325b.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/text1/20220325a.cpp",
+		"/C/Users/tob/AppData/Roaming/Sublime Text/.sublime/Local History/C/Users/tob/Desktop/垃圾桶/text/20220325b-20220325134610.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/text1/20220324a.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/text/20220324c.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/OMG/menu.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/text/20220324b.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/蓝桥a.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/20220323c.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/20220322b.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/20220321b.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/tempCodeRunnerFile.c",
+		"/C/Users/tob/Desktop/垃圾桶/20220321aa.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/OMG.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/20220302.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/testa.cpp",
+		"/C/OMG/menu.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/20220322c.cpp",
+		"/C/Users/tob/OMG.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/20220321c.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/20220302a.cpp",
+		"/C/Users/tob/Desktop/垃圾桶/20220321a",
+		"/C/Users/tob/Desktop/垃圾桶/20220320c.cpp",
+		"/C/Users/tob/AppData/Roaming/Sublime Text/Packages/User/g++.sublime-build"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": true,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 48.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/g++.sublime-build",
+	"project": "a.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 137.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

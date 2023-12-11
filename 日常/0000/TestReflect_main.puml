@@ -1,0 +1,10 @@
+@startuml
+participant Actor
+Actor -> TestReflect : main
+activate TestReflect
+TestReflect -> Point : move
+activate Point
+Point --> TestReflect
+deactivate Point
+return
+@enduml

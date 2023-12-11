@@ -1,0 +1,2 @@
+wsl ./a.sh
+pause

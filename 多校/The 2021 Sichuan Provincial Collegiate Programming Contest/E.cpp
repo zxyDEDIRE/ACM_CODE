@@ -1,0 +1,90 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define endl "\n"
+#define pp(x) array<int,x>
+using ull=unsigned long long;
+using ll=long long;
+using pii=pair<int,int>;
+using pdd=pair<double,double>;
+const int dx[]={0,0,1,-1,1,-1,1,-1};
+const int dy[]={1,-1,0,0,1,-1,-1,1};
+const int mod=998244353;
+const int inf=0x3f3f3f3f;
+const int INF=1e9+7;
+const int maxn=1e6+100;
+vector<int>v[maxn];
+bool vis[maxn];
+int n,m,cnt,now;
+void init(){
+	for(int i=1;i<=n;i++){
+		v[i].clear();
+		vis[i]=0;
+	}
+	cnt=0;
+	now=1;
+}
+void dfs(int x,int fa)
+{ 
+	// cout<<"x:"<<x<<" fa:"<<fa<<endl;
+	now++;
+	// _sleep(1000);
+	for(auto y:v[x])
+	{
+		if(y<now)continue;
+		while(y>now)
+		{
+			cnt++;
+			dfs(now,x);
+		}
+		// cout<<y<<" "<<now<<endl;
+		if(y==now)
+			dfs(y,x);
+	}
+	while(x==1&&now<=n)
+	{
+		cnt++;
+		dfs(now,1);
+	}
+
+}
+void solve()
+{
+	cin>>n>>m;
+	init();
+	for(int i=1;i<=m;i++){
+		int x,y;cin>>x>>y;
+		v[x].push_back(y);
+		v[y].push_back(x);
+	}
+	for(int i=1;i<=n;i++)
+		sort(v[i].begin(),v[i].end());
+	dfs(1,0);
+	cout<<cnt<<endl;
+}
+signed main(){
+ // freopen("data.in","r",stdin);
+ // freopen("data.out","w",stdout);
+	ios::sync_with_stdio(false);
+	cin.tie(nullptr);cout.tie(nullptr);
+	int __;cin>>__;
+	while(__--)
+		solve();
+	return 0;
+}
+/*
+5 3
+1 2
+1 4
+2 5
+
+1
+6 4
+1 2
+2 3
+2 5
+3 4
+
+3 2
+1 3
+2 3
+*/
