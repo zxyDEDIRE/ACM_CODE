@@ -7,11 +7,11 @@ const int maxn=1e6+7;
 int prime[maxn],phi[maxn];
 bool vis[maxn];
 int n;
-void doit()
+void doit(int N)
 {
-	for(int i=2;i<=maxn;i++){
+	for(int i=2;i<=N;i++){
 		if(!vis[i])prime[++prime[0]]=i,phi[i]=i-1;
-		for(int j=1;j<=prime[0]&&prime[j]*i<=maxn;j++){
+		for(int j=1;j<=prime[0]&&prime[j]*i<=N;j++){
 			vis[i*prime[j]]=1;
 			if(i%prime[j]==0){
 				phi[i*prime[j]]=phi[i]*prime[j];
@@ -36,6 +36,6 @@ int PHI(int x)
 }
 signed main(){
 	int n;cin>>n;
-	doit();
+	doit(n);
 	cout<<phi[n];
 }

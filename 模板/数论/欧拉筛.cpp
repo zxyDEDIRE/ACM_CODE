@@ -21,20 +21,23 @@ void init()
 signed main()
 {
 	init();
-	for(int i=1;i<=13;i++)cout<<prime[i]<<" ";
+	for(int i=1;i<=11;i++)cout<<prime[i]<<" ";
 	cout<<endl;
-	for(int i=1;i<=10000;i++)
-	{
-		for(int j=i;j<=10000;j++)
-		{
-			if(j-i>=3)continue;
-			int ans=1;
-			for(int k=i;k<=j;k++)
-				ans*=prime[k];
-			ans++;
-			if(ans%prime[j+1]==0){
-				cout<<i<<" "<<j<<" "<<ans<<" "<<prime[j+1]<<" "<<ans/prime[j+1]<<endl;
-			}
-		}
-	}
+	// for(int i=1;i<=10000;i++)
+	// {
+	// 	for(int j=i;j<=10000;j++)
+	// 	{
+	// 		if(j-i>=3)continue;
+	// 		int ans=1;
+	// 		for(int k=i;k<=j;k++)
+	// 			ans*=prime[k];
+	// 		ans++;
+	// 		if(ans%prime[j+1]==0){
+	// 			cout<<i<<" "<<j<<" "<<ans<<" "<<prime[j+1]<<" "<<ans/prime[j+1]<<endl;
+	// 		}
+	// 	}
+	// }
 }
+/*
+2 3 5 7 11 13 17 19 23 29 31
+*/
