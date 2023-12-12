@@ -1,6 +1,5 @@
 #include<bits/stdc++.h>
 using namespace std;
-#define endl "\n"
 #define pp(x) array<int,x>
 using ull=unsigned long long;
 using ll=long long;
@@ -17,24 +16,39 @@ ll getRand(ll l,ll r){
     uniform_int_distribution < ll > uid(l,r);
     return uid(rng);
 }
-void solve()
-{
-	int n=10;
-	set<pii>s;
-	s.insert({5,5});
-	int num=getRand(4,40);
+ll getRand(ll l,ll r,ll fl){
+	ll now=getRand(l,r);
+	while(now==fl)now=getRand(l,r);
+	return now;
 }
-signed main(){
- // freopen("data.in","r",stdin);
- // freopen("data.out","w",stdout);
+ll getRand(ll l,ll r,set<int>&s){
+	ll now=getRand(l,r);
+	while(s.count(now))
+		now=getRand(l,r);
+	return now;
+}
+vector<pp(3)>v[maxn];
+string T="ccsuCCSU";
+signed main(int argc, char *argv[]){
 	ios::sync_with_stdio(false);
 	cin.tie(nullptr);cout.tie(nullptr);
-		solve();
+	// 32~126
+	int n=atoi(argv[1]);
+	for(int i=1;i<=n;i++)
+	{
+		char str=(char)getRand('a','z');
+		int now=getRand(0,25);
+		if(now<=10)
+			str=(char)T[getRand(0,7)];
+		else if(now<=15)
+			str=(char)getRand('A','Z');
+		else if(now<=20)
+			str=(char)getRand('0','9');
+		cout<<str;
+	}
+
+
+
+
 	return 0;
 }
-
-/*
-https://hr.nowcoder.com/
-CCSU2019@nowcoder.com
-ccsu2024fight
-*/

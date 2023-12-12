@@ -14,14 +14,27 @@ const int INF=1e9+7;
 const int maxn=1e6+100;
 void solve()
 {
+	string str;
+	cin>>str;
+	// cout<<str<<endl;
+	for(auto &i:str)
+		if('A'<=i&&i<='Z')
+			i=i-'A'+'a';
+	int cnt=0;
+	int len=str.size();
+	for(int i=0;i<len;i++)
+		if(str.substr(i,4)=="ccsu")
+			cnt++;
+	cout<<cnt<<endl;
 }
 signed main(){
  // freopen("data.in","r",stdin);
  // freopen("data.out","w",stdout);
 	ios::sync_with_stdio(false);
 	cin.tie(nullptr);cout.tie(nullptr);
-	int __;cin>>__;
-	while(__--)
-		solve();
+	solve();
 	return 0;
 }
+/*
+sdfSDFSDgfR3retCcSu
+*/
