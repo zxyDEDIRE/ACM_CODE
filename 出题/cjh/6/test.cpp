@@ -5,7 +5,7 @@ int main(){
 	system("g++ gen.cpp -o gen");
 	system("g++ main.cpp -o main");
 
-	for(int i=1;i<=19;i++)
+	for(int i=1;i<=49;i++)
 	{
 		char tmp[100];
 		sprintf(tmp,"./gen  > ./data/%d.in",i);
@@ -13,7 +13,7 @@ int main(){
 		system(tmp);
 	}
 
-	for(int i=1;i<=19;i++)
+	for(int i=1;i<=49;i++)
 	{
 		char tmp[100];
 		memset(tmp,0,sizeof(tmp));
