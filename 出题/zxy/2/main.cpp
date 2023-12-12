@@ -22,7 +22,7 @@ struct node{
 		bal();
 	}
 	void bal(){
-		while(sa.size()&&sb.size()&&*sa.begin()>*sb.begin()){
+		while(sa.size()&&sb.size()&&(*sa.begin())>(*sb.begin())){
 			sb.insert(*sa.begin());
 			sa.erase(sa.begin());
 			lena--;
@@ -36,6 +36,13 @@ struct node{
 			lena++;
 			lenb--;
 		}
+		while(lena>x)
+		{
+			sb.insert(*sa.begin());
+			sa.erase(sa.begin());
+			lena--;
+			lenb++;
+		}
 		cout<<*sa.begin()<<" ";
 	}
 }sa,sb;
@@ -43,7 +50,7 @@ int n;
 void solve()
 {
 	cin>>n;
-	int len=0,lena=0,lenb=0;
+	int len=0;//,lena=0,lenb=0;
 	while(n--)
 	{
 		int x;
@@ -55,7 +62,7 @@ void solve()
 		sb.insert(x);
 		sa.out(mid_1);
 		sb.out(mid_2);
-		// cout<<" "<<mid_1<<" "<<mid_2<<endl;
+		// cout<<"|"<<len<<" "<<mid_1<<" "<<mid_2<<" "<<endl;
 		cout<<endl;
 	}
 }
@@ -68,15 +75,10 @@ signed main(){
 	return 0;
 }
 /*
-10
+5
 1
 2
 3
 1
 5
-6
-7
-8
-9
-10
 */
