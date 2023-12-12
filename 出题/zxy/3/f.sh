@@ -1,5 +1,6 @@
 #/bin/bash
-g++ gen.cpp -o gen
 g++ main.cpp -o main
-./gen 10 20 5 5 > 1.in
-./main < 1.in > 1.out
+g++ main_1.cpp -o main_1
+./main    < ./data/1.in > AC.out
+./main_1  < ./data/1.in > WA.out
+diff  AC.out WA.out

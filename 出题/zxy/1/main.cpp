@@ -52,4 +52,21 @@ signed main(){
 
 https://polygon.codeforces.com/plain-answer/answer-10.txt?testset=tests&index=10&session=e40d2be16baa1fbcac4ac4ce94a88eb0147bd4b7&ccid=1ea5ccabf3e3ad2d489fda4e0e37f208
 https://dwz.cn/OwZR2vmA
+
+10010110
+01101001
+01101001
+10010110
+01101001
+10010110
+10010110
+
+10011001
+01100110
+01100110
+10011001
+10011001
+01100110
+01100110
+10011001
 */
