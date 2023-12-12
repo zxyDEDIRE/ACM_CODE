@@ -5,7 +5,7 @@ int main(){
 	system("g++ gen.cpp -o gen");
 	system("g++ main.cpp -o main");
 
-	for(int i=1;i<=30;i++)
+	for(int i=1;i<=50;i++)
 	{
 		int t=2e5;
 		char tmp[100];
@@ -14,7 +14,7 @@ int main(){
 		system(tmp);
 	}
 
-	for(int i=1;i<=30;i++)
+	for(int i=1;i<=50;i++)
 	{
 		char tmp[100];
 		memset(tmp,0,sizeof(tmp));
