@@ -4,17 +4,8 @@ using namespace __gnu_cxx;
 using namespace __gnu_pbds;
 using namespace std;
 #define endl "\n"
-#define pp(x) array<int,x>
-using ull=unsigned long long;
-using ll=long long;
 using pii=pair<int,int>;
-using pdd=pair<double,double>;
-const int dx[]={0,0,1,-1,1,-1,1,-1};
-const int dy[]={1,-1,0,0,1,-1,-1,1};
-const int mod=998244353;
-const int inf=0x3f3f3f3f;
 const int INF=1e9+7;
-const int maxn=1e6+100;
 
 typedef tree<pii, null_type, less<pii>, rb_tree_tag, tree_order_statistics_node_update> Tree;
 Tree t;
@@ -35,23 +26,23 @@ T getVal(int k)
 	else
 		return {INF,0};
 }
+int get(int x){
+    auto v=getVal<pii>(x);
+    return v.first;
+}
 
 
 void solve()
 {
-	int n;
+	int n,x;
 	cin>>n;
 	for(int i=1;i<=n;i++)
 	{
-		int op,x;
-		// cin>>op>>x;
 		cin>>x;
 		t.insert({x,i});
 		int mid_l = ceil(1.0*i/3);
 		int mid_r = ceil(2.0*i/3);
-		auto v=getVal<pii>(mid_l);
-		auto u=getVal<pii>(mid_r);
-		cout<<v.first<<" "<<u.first<<endl;
+        cout<<get(mid_l)<<" "<<get(mid_r)<<endl;
 	}
 }
 signed main(){
