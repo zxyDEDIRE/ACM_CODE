@@ -37,7 +37,7 @@ def walkdir(file):
                 # if houzui != 'cpp' and houzui != 'md' :
                     ans.append(m)
                     print("删")
-                    os.remove(m)
+                    # os.remove(m)
 if __name__ == "__main__":
     print("start")
     print(sys.argv)
