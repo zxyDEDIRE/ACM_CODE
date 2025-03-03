@@ -1,0 +1,22 @@
+{
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current",
+  "newFileFolderPath": "Z_img",
+  "attachmentFolderPath": "有意思的东西/漫画/TEMP",
+  "showLineNumber": true,
+  "vimMode": false,
+  "showUnsupportedFiles": true,
+  "autoConvertHtml": true,
+  "useMarkdownLinks": false,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "userIgnoreFilters": [
+    "Imgs/"
+  ],
+  "newLinkFormat": "shortest"
+}

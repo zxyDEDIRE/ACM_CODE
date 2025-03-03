@@ -1,0 +1,240 @@
+{
+  "main": {
+    "id": "50263c0b82219052",
+    "type": "split",
+    "children": [
+      {
+        "id": "44e0bffaa235bf32",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fe55eb6ff5eafcb9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "模板/题单收集.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "题单收集"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5284528a3b7ca403",
+    "type": "split",
+    "children": [
+      {
+        "id": "b25f9346d6d1c9d2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ac96984278d428ce",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "a1ba66872b9e7d2c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "82a5e9efb17e3639",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          },
+          {
+            "id": "fe2afb25815a3866",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tip/Linux.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Linux"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 293.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "4b650f0c7336882b",
+    "type": "split",
+    "children": [
+      {
+        "id": "2e6c710f20245dc8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ff4f9dd08039e393",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Ned/TypeScript/TypeScript入门与实战/1 第二篇 TypeScript语言概览/第4章 TypeScript语言进阶/4.1 BigInt/4.1 BigInt.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-coming-in",
+              "title": "4.1 BigInt 的反向链接列表"
+            }
+          },
+          {
+            "id": "f8128a1f211caa76",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "82777b33b50a52ac",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "933c7345f64721d4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "模板/题单收集.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "题单收集 的大纲"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 325.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "workspaces:管理工作区布局": false,
+      "slides-extended:Show slide preview": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
+    }
+  },
+  "active": "fe55eb6ff5eafcb9",
+  "lastOpenFiles": [
+    "模板/题单收集.md",
+    "过去的事情/奖金.md",
+    "过去的事情/ANO/牛客账号整理.md",
+    "Ned/TypeScript/2.ts备忘清单.md",
+    "过去的事情/ANO/面试杂谈/未命名.md",
+    "过去的事情/ANO/面试杂谈/奇娱hr杂谈.md",
+    "过去的事情/ANO/面试杂谈/奇娱面试杂谈.md",
+    "过去的事情/ANO/面试杂谈",
+    "Ned/TypeScript/TypeScript编程 (鲍里斯·切尔尼) (Z-Library).pdf",
+    "Tip/Linux.md",
+    "Ned/Linux.md",
+    "Tip/Git.md",
+    "接下来要做的/TA.md",
+    "Ned/张孝玉.md",
+    "Ned/50个最新TypeScript面试题合集 – TypeScript开发教程-CSDN博客.md",
+    "c++解析html.md",
+    "Ned/UE&&C++/ano.md",
+    "Ned/UE&&C++",
+    "有意思的东西/漫画/TEMP/Pasted image 20250302165356.png",
+    "有意思的东西/漫画/TEMP/Pasted image 20250302165340.png",
+    "有意思的东西/漫画/TEMP",
+    "有意思的东西/漫画",
+    "Ned/TypeScript/Tips/函数调用 bind 的详细说明.md",
+    "Ned/TypeScript/Tips/函数调用 apply 的详细说明.md",
+    "Ned/TypeScript/Tips",
+    "Ned/TypeScript/1.js备忘录.md",
+    "202503012140.md",
+    "Ned/TypeScript/0.ts命令行.md",
+    "Ned/TypeScript/TypeScript入门与实战 (钟胜平) (Z-Library).pdf",
+    "Ned/TypeScript/笔记.md",
+    "Readme.md",
+    "Codeforces.md",
+    "未命名 1.md",
+    "Ned/UE&&C++/冲！/张孝玉.md",
+    "Ned/UE&&C++/冲！/gameplay.md",
+    "过去的事情/杂杂杂/杂七杂八",
+    "Excalidraw",
+    "Ned/TypeScript/JavaScript DOM编程艺术(第2版)（图灵图书） (Jeremy Keith  Jeffrey Sambells) (Z-Library).epub",
+    "有意思的东西/漫画/TEMP/Pasted image 20250217110840.png",
+    "Ned/TypeScript/TypeScript入门与实战/4 images/012-1.jpg",
+    "Ned/TypeScript/TypeScript入门与实战/4 images/part4~slim.jpg",
+    "Ned/TypeScript/TypeScript入门与实战/4 images/part4.jpg",
+    "Ned/TypeScript/TypeScript入门与实战/4 images/part3~slim.jpg",
+    "Ned/TypeScript/TypeScript入门与实战/4 images/part3.jpg",
+    "Ned/TypeScript/TypeScript入门与实战/4 images/part2.jpg",
+    "Ned/TypeScript/TypeScript入门与实战/4 images/part2~slim.jpg",
+    "未命名.canvas",
+    "有意思的东西/游戏/戴森球/未命名.canvas",
+    "过去的事情/毕设/未命名.canvas",
+    "过去的事情/毕设/流程图.canvas",
+    "未命名 1.canvas"
+  ]
+}
